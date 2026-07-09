@@ -1,0 +1,39 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 220px;
+  padding: 12px 90px 12px 14px;
+  border: 1px solid #333;
+  border-radius: 8px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+
+.button {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  padding: 6px 12px;
+  border: 1px solid #b0b0b0;
+  border-radius: 4px;
+  background: #eee;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button:hover {
+  background: #ddd;
+}
